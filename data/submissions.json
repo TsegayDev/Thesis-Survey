@@ -1,0 +1,56 @@
+[
+  {
+    "surveyId": "thesis-survey-kedamay-weyane",
+    "answers": {
+      "q4": "Other",
+      "q14": {
+        "latitude": 13.481235,
+        "longitude": 39.48328,
+        "accuracy": 121,
+        "timestamp": "2026-04-16T19:12:43.190Z"
+      }
+    },
+    "id": "ddc1c384-1b86-4bc5-8b1e-c356fda0b889",
+    "submittedAt": "2026-04-16T19:12:44.979Z"
+  },
+  {
+    "surveyId": "thesis-survey-kedamay-weyane",
+    "answers": {
+      "q4": "Other",
+      "q5": "I do not know",
+      "q14": {
+        "latitude": 13.481686194691576,
+        "longitude": 39.48321736698768,
+        "accuracy": 112,
+        "timestamp": "2026-04-16T19:13:11.525Z"
+      }
+    },
+    "id": "e9211c8f-696a-4517-ab9a-fada0ee91f75",
+    "submittedAt": "2026-04-16T19:13:15.160Z"
+  },
+  {
+    "surveyId": "thesis-survey-kedamay-weyane",
+    "answers": {
+      "q1": "egsfd",
+      "q2": "sesfew",
+      "q3": "wefw",
+      "q4": "Male",
+      "q5": "Less than 300 meters",
+      "q6": "On foot",
+      "q7": "5-10 minutes",
+      "q8": "2-3 times a week",
+      "q9": [
+        "Relaxation"
+      ],
+      "q10": "Very satisfied",
+      "q11": "Moderately maintained",
+      "q12": [
+        "Lack of safe pathways",
+        "Fences or blocked entrances",
+        "Distance is too far"
+      ]
+    },
+    "id": "c282ddbe-beff-49e2-a3e2-1386f0e6a446",
+    "submittedAt": "2026-04-17T12:44:51.388Z"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "name": "ThesisSurvey",
+  "description": "A professional, mobile-first surveying app for academic data collection and analysis.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": []
+}

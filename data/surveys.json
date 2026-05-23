@@ -1,0 +1,372 @@
+[
+  {
+    "id": "thesis-survey-kedamay-weyane",
+    "title": "Household Survey on Accessibility and Use of Urban Green Spaces in Kedamay Weyane Sub-City",
+    "description": "This survey aims to assess spatial access, usage patterns, satisfaction levels, and barriers related to public green spaces in Kedamay Weyane subcity, Mekelle.",
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Name of neighborhood (sefer)",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "q2",
+        "text": "Number of household members",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "q3",
+        "text": "Respondent's age",
+        "type": "text",
+        "required": true
+      },
+      {
+        "id": "q4",
+        "text": "Respondent's gender",
+        "type": "multiple-choice",
+        "required": true,
+        "options": [
+          "Male",
+          "Female",
+          "Other"
+        ]
+      },
+      {
+        "id": "q5",
+        "text": "How far is the nearest green space from your home?",
+        "type": "multiple-choice",
+        "required": true,
+        "options": [
+          "Less than 300 meters",
+          "300-500 meters",
+          "500-1000 meters",
+          "More than 1000 meters",
+          "I do not know"
+        ]
+      },
+      {
+        "id": "q6",
+        "text": "How do you usually reach the nearest green space?",
+        "type": "multiple-choice",
+        "required": true,
+        "options": [
+          "On foot",
+          "Bicycle",
+          "By car/taxi"
+        ]
+      },
+      {
+        "id": "q7",
+        "text": "Approximate walking time to reach the nearest green space",
+        "type": "multiple-choice",
+        "required": true,
+        "options": [
+          "Less than 5 minutes",
+          "5-10 minutes",
+          "10-20 minutes",
+          "More than 20 minutes"
+        ]
+      },
+      {
+        "id": "q8",
+        "text": "How often do you visit green spaces?",
+        "type": "multiple-choice",
+        "required": true,
+        "options": [
+          "Daily",
+          "2-3 times a week",
+          "Weekly",
+          "Monthly",
+          "Rarely",
+          "Never",
+          "I do not visit green spaces"
+        ]
+      },
+      {
+        "id": "q9",
+        "text": "Purpose of your visit (you may select more than one)",
+        "type": "checkbox",
+        "required": true,
+        "options": [
+          "Relaxation",
+          "Exercise/Sport",
+          "Social activities",
+          "Other"
+        ]
+      },
+      {
+        "id": "q10",
+        "text": "Overall satisfaction with green spaces in your area",
+        "type": "multiple-choice",
+        "required": true,
+        "options": [
+          "Very satisfied",
+          "Satisfied",
+          "Neutral",
+          "Dissatisfied",
+          "Very dissatisfied"
+        ]
+      },
+      {
+        "id": "q11",
+        "text": "Comments on the condition of green spaces",
+        "type": "multiple-choice",
+        "required": true,
+        "options": [
+          "Clean and well-maintained",
+          "Moderately maintained",
+          "Poor condition",
+          "Unsafe or unattractive"
+        ]
+      },
+      {
+        "id": "q12",
+        "text": "What challenges make it hard to access green spaces? (Select all that apply)",
+        "type": "checkbox",
+        "required": true,
+        "options": [
+          "Distance is too far",
+          "Lack of safe pathways",
+          "Fences or blocked entrances",
+          "Poor maintenance",
+          "Feeling unsafe",
+          "Not enough green spaces nearby",
+          "Other"
+        ]
+      },
+      {
+        "id": "q13",
+        "text": "What improvements would you like to see in your area’s green spaces?",
+        "type": "text",
+        "required": false
+      },
+      {
+        "id": "q14",
+        "text": "Exact Location Tracking",
+        "type": "location",
+        "required": true
+      }
+    ],
+    "createdAt": "2026-04-15T18:46:28.329Z",
+    "translations": {
+      "am": {
+        "title": "በከዳማይ ወያነ ክፍለ ከተማ የከተማ አረንጓዴ ቦታዎች ተደራሽነት እና አጠቃቀም ላይ የተደረገ የቤተሰብ ዳሰሳ",
+        "description": "ይህ ጥናት በመቀሌ ከዳማይ ወያነ ክፍለ ከተማ የሚገኙ የህዝብ አረንጓዴ ቦታዎችን የቦታ ተደራሽነት፣ የአጠቃቀም ዘይቤ፣ የእርካታ ደረጃ እና ተያያዥ እንቅፋቶችን ለመገምገም ያለመ ነው።",
+        "questions": {
+          "q1": {
+            "text": "የሰፈር ስም"
+          },
+          "q2": {
+            "text": "የቤተሰብ አባላት ብዛት"
+          },
+          "q3": {
+            "text": "የዳሰሳው ተሳታፊ ዕድሜ"
+          },
+          "q4": {
+            "text": "የዳሰሳው ተሳታፊ ጾታ",
+            "options": [
+              "ወንድ",
+              "ሴት",
+              "ሌላ"
+            ]
+          },
+          "q5": {
+            "text": "በአቅራቢያዎ ያለው አረንጓዴ ቦታ ከቤትዎ ምን ያህል ይርቃል?",
+            "options": [
+              "ከ300 ሜትር ያነሰ",
+              "ከ300-500 ሜትር",
+              "ከ500-1000 ሜትር",
+              "ከ1000 ሜትር በላይ",
+              "አላውቅም"
+            ]
+          },
+          "q6": {
+            "text": "ብዙውን ጊዜ ወደ አቅራቢያው አረንጓዴ ቦታ እንዴት ይሄዳሉ?",
+            "options": [
+              "በእግር",
+              "በብስክሌት",
+              "በመኪና/በታክሲ"
+            ]
+          },
+          "q7": {
+            "text": "በአቅራቢያው ወዳለው አረንጓዴ ቦታ ለመድረስ የሚፈጅ የእግር ጉዞ ጊዜ",
+            "options": [
+              "ከ5 ደቂቃ ያነሰ",
+              "ከ5-10 ደቂቃ",
+              "ከ10-20 ደቂቃ",
+              "ከ20 ደቂቃ በላይ"
+            ]
+          },
+          "q8": {
+            "text": "ምን ያህል ጊዜ አረንጓዴ ቦታዎችን ይጎበኛሉ?",
+            "options": [
+              "በየቀኑ",
+              "በሳምንት 2-3 ጊዜ",
+              "በሳምንት አንድ ጊዜ",
+              "በወር አንድ ጊዜ",
+              "አልፎ አልፎ",
+              "በፍጹም",
+              "አረንጓዴ ቦታዎችን አልጎበኝም"
+            ]
+          },
+          "q9": {
+            "text": "የጉብኝትዎ ዓላማ (ከአንድ በላይ መምረጥ ይችላሉ)",
+            "options": [
+              "ለመዝናናት",
+              "የአካል ብቃት እንቅስቃሴ/ስፖርት",
+              "ለማህበራዊ እንቅስቃሴዎች",
+              "ሌላ"
+            ]
+          },
+          "q10": {
+            "text": "በአካባቢዎ ባሉ አረንጓዴ ቦታዎች ላይ ያለዎት አጠቃላይ እርካታ",
+            "options": [
+              "በጣም ረክቻለሁ",
+              "ረክቻለሁ",
+              "መካከለኛ",
+              "አልረካሁም",
+              "በጣም አልረካሁም"
+            ]
+          },
+          "q11": {
+            "text": "ስለ አረንጓዴ ቦታዎች ሁኔታ አስተያየት",
+            "options": [
+              "ንጹህ እና በጥሩ ሁኔታ የተያዘ",
+              "በመጠኑ የተያዘ",
+              "በጥሩ ሁኔታ ላይ ያልሆነ",
+              "ደህንነቱ ያልተጠበቀ ወይም የማይስብ"
+            ]
+          },
+          "q12": {
+            "text": "አረንጓዴ ቦታዎችን ለማግኘት ምን ችግሮች ያጋጥሙዎታል? (ሁሉንም የሚመለከቱትን ይምረጡ)",
+            "options": [
+              "ርቀቱ በጣም ሩቅ ነው",
+              "አስተማማኝ የእግር መንገዶች አለመኖር",
+              "አጥሮች ወይም የተዘጉ መግቢያዎች",
+              "ደካማ ጥገና/አያያዝ",
+              "ደህንነት አይሰማኝም",
+              "በአቅራቢያው በቂ አረንጓዴ ቦታዎች የሉም",
+              "ሌላ"
+            ]
+          },
+          "q13": {
+            "text": "በአካባቢዎ አረንጓዴ ቦታዎች ላይ ምን ዓይነት መሻሻሎችን ማየት ይፈልጋሉ?"
+          },
+          "q14": {
+            "text": "ትክክለኛ የቦታ ክትትል"
+          }
+        }
+      },
+      "ti": {
+        "title": "ኣብ ክፍለ ከተማ ከዳማይ ወያነ ተበፃሕነትን ኣጠቓቕማን ከተማዊ ቀጠልያ ቦታታት ዝተገብረ ናይ ስድራቤት መፅናዕቲ",
+        "description": "እዚ መፅናዕቲ እዚ ኣብ ከተማ መቐለ ክፍለ ከተማ ከዳማይ ወያነ ዝርከቡ ህዝባዊ ቀጠልያ ቦታታት ዘለዎም ናይ ቦታ ተበፃሕነት፣ ኣጠቓቕማ፣ ደረጃ ዕግበትን ምስኡ ዝተኣሳሰሩ ዕንቅፋታትን ንምግምጋም ዝዓለመ እዩ።",
+        "questions": {
+          "q1": {
+            "text": "ሽም ሰፈር"
+          },
+          "q2": {
+            "text": "ብዝሒ ኣባላት ስድራቤት"
+          },
+          "q3": {
+            "text": "ዕድመ ተሳታፊ"
+          },
+          "q4": {
+            "text": "ጾታ ተሳታፊ",
+            "options": [
+              "ተባዕታይ",
+              "ኣንስተይቲ",
+              "ካልእ"
+            ]
+          },
+          "q5": {
+            "text": "እቲ ዝቐረበ ቀጠልያ ቦታ ካብ ቤትኩም ክሳብ ክንደይ ይርሕቕ?",
+            "options": [
+              "ካብ 300 ሜትሮ ንታሕቲ",
+              "300-500 ሜትሮ",
+              "500-1000 ሜትሮ",
+              "ካብ 1000 ሜትሮ ንላዕሊ",
+              "ኣይፈልጥን"
+            ]
+          },
+          "q6": {
+            "text": "መብዛሕትኡ ግዜ ናብቲ ዝቐረበ ቀጠልያ ቦታ ብከመይ ትኸዱ?",
+            "options": [
+              "ብእግሪ",
+              "ብብስክሌት",
+              "ብመኪና/ታክሲ"
+            ]
+          },
+          "q7": {
+            "text": "ናብቲ ዝቐረበ ቀጠልያ ቦታ ንምብፃሕ ዝውሰድ ግዜ ብእግሪ",
+            "options": [
+              "ካብ 5 ደቒቓ ንታሕቲ",
+              "5-10 ደቒቓ",
+              "10-20 ደቒቓ",
+              "ካብ 20 ደቒቓ ንላዕሊ"
+            ]
+          },
+          "q8": {
+            "text": "ክንደይ ግዜ ቀጠልያ ቦታታት ትበፅሑ?",
+            "options": [
+              "መዓልታዊ",
+              "ኣብ ሰሙን 2-3 ግዜ",
+              "ሰሙናዊ",
+              "ወርሓዊ",
+              "ሓሊፉ ሓሊፉ",
+              "ፈፂመ",
+              "ቀጠልያ ቦታታት ኣይበፅሕን"
+            ]
+          },
+          "q9": {
+            "text": "ዕላማ ምብፃሕኩም (ካብ ሓደ ንላዕሊ ክትመርፁ ትኽእሉ ኢኹም)",
+            "options": [
+              "ንምዝንጋዕ",
+              "ምንቅስቓስ ኣካል/ስፖርት",
+              "ንማሕበራዊ ንጥፈታት",
+              "ካልእ"
+            ]
+          },
+          "q10": {
+            "text": "ኣብ ከባቢኹም ብዘለዉ ቀጠልያ ቦታታት ዘለኩም ሓፈሻዊ ዕግበት",
+            "options": [
+              "ብጣዕሚ ዓጊበ",
+              "ዓጊበ",
+              "ማእኸላይ",
+              "ኣይዓገብኩን",
+              "ብጣዕሚ ኣይዓገብኩን"
+            ]
+          },
+          "q11": {
+            "text": "ብዛዕባ ኩነታት ቀጠልያ ቦታታት ዘለኩም ርእይቶ",
+            "options": [
+              "ፅሩይን ብፅቡቕ ዝተታሕዘን",
+              "ብመጠኑ ዝተታሕዘ",
+              "ብፅቡቕ ኩነታት ዘይተታሕዘ",
+              "ድሕንነቱ ዘይተሓለወ ወይ ዘይስሕብ"
+            ]
+          },
+          "q12": {
+            "text": "ቀጠልያ ቦታታት ንምብፃሕ እንታይ ፀገማት የጋጥሙኹም? (ኩሎም ዝምልከቱ ሕረዩ)",
+            "options": [
+              "ርሕቐቱ ብጣዕሚ ርሑቕ እዩ",
+              "ውሑስ መገዲ እግሪ ዘይምህላው",
+              "ሓፁር ወይ ዝተዓፀዉ መእተዊታት",
+              "ድኹም ፅገና/ኣተሓሕዛ",
+              "ድሕንነት ኣይስምዓንን",
+              "ኣብ ከባቢ እኹል ቀጠልያ ቦታታት የለን",
+              "ካልእ"
+            ]
+          },
+          "q13": {
+            "text": "ኣብ ከባቢኹም ዘለዉ ቀጠልያ ቦታታት እንታይ ዓይነት ምምሕያሻት ክግበር ትደልዩ?"
+          },
+          "q14": {
+            "text": "ትኽክለኛ ክትትል ቦታ"
+          }
+        }
+      }
+    }
+  }
+]
